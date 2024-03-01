@@ -1,0 +1,321 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: white;
+   }
+
+   body{
+    background-image: linear-gradient(rgba(0, 56, 14, 0.9),rgba(0,0,0,0.9)), url('./images/background\ img.png');
+
+    
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+   }
+
+   :root{
+      --mangogreen: #58ff58;
+      --havygreen: #00e700;
+      --lightgreen: #00af00;
+      --darkgreen: #003500;
+      --extraDarkgreen: #001f00;
+   }
+
+   
+
+   nav{
+    background-color: var(--extraDarkgreen);
+    height: 15vh;
+
+    padding: 2px 20px;
+    /* border: 1px solid blue; */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   nav .logo{
+      font-size: 30px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+font-weight: bolder;
+   }
+
+   nav .logo .logoGreen{
+      color: var(--havygreen);
+   }
+   nav ul{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+   }
+   nav ul li{
+    margin-right: 20px; 
+   }
+   nav a{
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+    
+    padding: 10px 20px;
+border-radius: 20px;
+
+    transition-duration: 0.8s;
+    transition-delay: 0s;
+   }
+
+ 
+   nav li a:hover{
+      background-color: var(--havygreen);  
+      color: black;
+      box-shadow: 0px 0px 10px 1px #00e700af;;
+   }
+   nav li a.active{
+      background-color: var(--havygreen);  
+      color: black;
+      box-shadow: 0px 0px 10px 1px #00e700af;;
+   }
+
+   section.twosec{
+    /* border: 10px solid red; */
+    height: 80vh;
+    /* padding: 0px 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+   }
+   .twosec .main{
+/* border: 2px solid black; */
+width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+   }
+   .twosec .main .image img{
+      width:300px;
+   border-radius: 200px;
+
+cursor: pointer;
+   /* border: 7px solid darkgreen; */
+   
+   transition-duration: 0.6s;
+   transition-delay: 0s;
+   }
+   .twosec .main .image img:hover{
+      opacity: 0.7;
+      box-shadow: 0px 0px 20px 10px #00e700af;;
+   }
+   .twosec .main .text{
+/* border: 1px solid red; */
+
+   }
+
+
+   .twosec .main h1{
+        font-size: 50px;
+
+   }
+
+   .twosec .main p{
+        width:400px;        
+
+margin-top: 10px;
+margin-bottom: 30px;
+
+   }
+   .twosec .main a{
+        border-radius: 20px;
+        background-color: var(--lightgreen);
+
+        color: black;
+        text-decoration: none;
+        text-transform: lowercase;
+        font-weight: 600;
+        
+        padding: 10px 30px;
+
+           
+   transition-duration: 0.4s;
+   transition-delay: 0s;
+
+   }
+   .twosec .main a:hover{
+      background-color: var(--havygreen);  
+      box-shadow: 0px 0px 10px 1px #00e700af;;
+   }
+
+   /* ----/ */
+ 
+   section.three{
+width: auto;
+height: 90vh;
+margin-bottom: 50px;
+   }
+
+   section.three .button {
+      /* border: 1px solid  red; */
+       /* width: 100%; */
+       height: auto;
+
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+       flex-wrap: wrap;
+   }
+
+   section.three .button .box:hover{
+      background-color: var(--havygreen);  
+      box-shadow: 0px 0px 10px 10px #00e70077;;
+   }
+
+   section.three .button .box{
+      width: 40%;
+      margin-bottom: 20px;
+      /* border: 2px solid black; */
+      height: 40vh;
+
+      background-color: var(--lightgreen);
+      border-radius: 30px;
+
+                 
+   transition-duration: 0.4s;
+   transition-delay: 0s;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   
+   padding: 10px;
+
+   }
+
+   section.three .button .box:first-child{
+      
+      background-color: var(--darkgreen);
+      width: 50%;
+   }
+   section.three .button .box:nth-of-type(4){
+      
+      background-color: var(--darkgreen);
+      width: 50%;
+   }
+
+   section.three .button .box .images img{
+      width: 150px;
+      margin-right: 10px;
+      border-radius: 40px;
+   }
+   section.three .button .box .text h1{
+      font-size: 25px;
+   }
+
+   section.three .button .box .text p{
+      font-size: 9px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+   }
+   section.three .button .box .text a{
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-size: 10px;
+      text-decoration: none;
+      background-color: black;
+   }
+
+   section.blackN{
+      background-color: rgba(0, 0, 0, 0.747);
+      margin-top: 50px;
+      margin-bottom: 30px;
+
+padding: 30px 10px;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      text-align: center;
+
+   }
+
+   section.blackN h1{
+      color: var(--havygreen);
+      font-size: 30px;
+   }
+   section.blackN p{
+      
+      font-size: 13px;
+      width: 200px;
+   }
+   section.blackN .pera{
+      color: white;
+      margin-bottom: 20px;
+      font-size: 20px;
+   }
+
+   /* __ */
+
+   section.about{
+      /* border: 1px solid red; */
+
+   }
+
+   section.about .abdeataile{
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+   }
+   section.about .abdeataile .text{
+      /* border: 2px solid green; */
+      width: 45%;
+      padding: 10px 20px;
+   }
+   section.about .abdeataile .text sub{
+   font-size: 30px;
+   }
+   section.about .abdeataile .text h1{
+   font-size: 50px;
+   color: var(--havygreen);
+   }
+   section.about .abdeataile .text p{
+  font-size: 16px;
+  
+  width: 380px;
+  /* text-align: center; */
+  /* border: 1px solid red; */
+
+  margin-bottom: 20px;
+   }
+   section.about .abdeataile .text a{
+      border-radius: 20px;
+      background-color: var(--lightgreen);
+
+      color: black;
+      text-decoration: none;
+      text-transform: lowercase;
+      font-weight: 600;
+      
+      padding: 10px 30px;
+
+         
+ transition-duration: 0.4s;
+ transition-delay: 0s;
+
+ }
+ section.about .abdeataile .text a:hover{
+    background-color: var(--havygreen);  
+    box-shadow: 0px 0px 10px 1px #00e700af;;
+ }
+
+ section.about .abdeataile .imgae img{
+   width: 430px;
+   border-radius: 40px;
+   box-shadow: 0px 0px 20px 2px #00e700af;;
+ }
